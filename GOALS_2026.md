@@ -1,152 +1,152 @@
 # Goals, Strategies & Systems for 2026
 
+**Theme: IMPACT**
+**Act. Don't wait.**
+
 This document defines your goals for 2026 and serves as context for Impact OS reminders and AI summarization.
 
 ---
 
-## Health & Vitality
+## Act 1 — Clarity
 
-### Goals
-- Maintain consistent morning exercise routine (5+ days/week)
-- Achieve and sustain target weight and body composition
-- Build sustainable energy levels throughout the day
-- Establish regular sleep schedule (7-8 hours)
+### Core Aim (2026)
+Become world-class in practical AI use and be recognized for it.
 
-### Strategies
-- Morning movement before checking phone/email
-- Prepare meals in advance to avoid decision fatigue
-- Track energy levels and identify patterns
-- Create evening wind-down routine
+### Proof by Dec 31, 2026
+- Paid consultancy with 5 clients
+- Corella upgrade + rollout with measurable success
+- 4,000 LinkedIn followers
+- Invitation to speak at a national conference
 
-### Systems
-- Morning gratitude + exercise (6:00 AM daily)
-- Weekly meal prep (Sunday afternoons)
-- Daily energy journal (evening reflection)
-- Screen off by 10:00 PM weeknights
+### Primary Failure Risks (pre-mortem)
+- **Overconsumption** → loss of focus
+- **Avoiding hard conversations**
+- **Shiny-object drift**
 
----
-
-## Career & Impact
-
-### Goals
-- Launch and scale [Primary Project/Business]
-- Build sustainable income streams
-- Develop expertise in [Key Skill Area]
-- Create meaningful impact in [Target Audience/Market]
-
-### Strategies
-- Focus on high-leverage activities (80/20 rule)
-- Build in public and document the journey
-- Invest in relationships and networking
-- Regular skills development and learning
-
-### Systems
-- Deep work blocks (9:00 AM - 12:00 PM daily)
-- Weekly review and planning (Friday afternoons)
-- Monthly learning goals and progress tracking
-- Quarterly strategy review and pivots
+### Blockers Installed
+- Morning journal + daily wrap-up
+- Monthly look-back / look-forward
+- Consistent messaging and speaking up
 
 ---
 
-## Relationships & Community
+## Act 2 — Structure
 
-### Goals
-- Deepen existing relationships with intentionality
-- Build genuine connections with aligned individuals
-- Contribute to community in meaningful ways
-- Be more present with loved ones
+### First Hour (Daily)
+- **6:00–7:00am:** journaling + stretching
+- **Never:** YouTube
 
-### Strategies
-- Schedule regular 1:1 time with important people
-- Say no to shallow commitments to say yes to deep ones
-- Be fully present (phone away) during connection time
-- Initiate and host gatherings
+### Micro-Sabbath
+- **Daily:** meditation + short stretch
+- **Time/place:** 6:00am, studio
 
-### Systems
-- Weekly family time (no devices)
-- Monthly friend check-ins (rotating)
-- Quarterly community contribution projects
-- Daily phone-free meals
+### Consumption Rules
+- No YouTube before midday
+- YouTube not used on phone (laptop only, intentional)
 
----
+### 2-Minute Rule
+- **≤2 min** → do immediately
+- **>2 min** → capture in OneNote
 
-## Personal Growth
+### Weekly Shutdown
+- **Friday 4:00pm**
+- Exercise
+- 5–10 min weekly review
+- Best-case weekend plan
+- **Cue:** "Let's reset and recharge for greater impact."
 
-### Goals
-- Develop stronger self-awareness and emotional intelligence
-- Build resilience and mental toughness
-- Cultivate creativity and artistic expression
-- Deepen spiritual practice and inner peace
-
-### Strategies
-- Daily reflection and journaling
-- Regular meditation or contemplative practice
-- Seek feedback and act on it
-- Embrace discomfort for growth
-
-### Systems
-- Morning meditation (10 minutes)
-- Evening reflection journal (5 minutes)
-- Weekly creative time (2+ hours)
-- Monthly self-review and goal adjustment
+### Weekly Reset
+- **Sunday 2:00pm**
+- Priorities chosen from High Impact work + quarterly goals
 
 ---
 
-## Financial
+## Act 3 — Motivation
 
-### Goals
-- Achieve [Specific Income Target]
-- Build emergency fund (6+ months expenses)
-- Diversify income sources
-- Optimize spending and reduce waste
+### Skill Under Training
+**Resisting distracting media / mindless scrolling**
 
-### Strategies
-- Track all expenses and review monthly
-- Automate savings and investments
-- Focus on value creation, not just cost cutting
-- Build assets, not just income
+### Current Success Rate
+~25%
 
-### Systems
-- Weekly financial review (15 minutes)
-- Monthly budget planning
-- Quarterly investment rebalancing
-- Annual financial audit and goal setting
+### Adjustment Toward 85%
+- Phone kept out of reach
+- Usage reviewed weekly
+- Clearer goals reduce drift
 
----
+### Discomfort Reframe
+*"This is not helping me feel better."*
 
-## Spiritual
-
-### Goals
-- Develop deeper sense of purpose and meaning
-- Cultivate gratitude and appreciation
-- Connect with something larger than self
-- Live with greater alignment and integrity
-
-### Strategies
-- Regular contemplative practices
-- Study wisdom traditions and philosophy
-- Service and contribution to others
-- Nature connection and awe experiences
-
-### Systems
-- Daily gratitude practice (morning)
-- Weekly nature time or outdoor activity
-- Monthly reading/study of wisdom texts
-- Quarterly retreat or deep reflection time
+### Friction Design
+- **Less:** algorithmic "seeking" content
+- **More:** stillness with page / planner / coach
+- **Friction added:** phone distance + tracking
+- **Friction removed:** book always ready in retreat space
 
 ---
 
-## Cross-Cutting Themes
+## Act 4 — Connection & Renewal
 
-**Integration**: All goals support each other. Health enables career performance. Relationships provide meaning. Growth enhances all areas.
+### Challenge Network
 
-**Flexibility**: This is a living document. Review and adjust quarterly based on what's working and what matters most.
+#### Challenger
+- **Role:** challenges me to be the best AI leader in the world
+- **Activation:** monthly feedback
 
-**Focus**: Not everything at once. Choose 1-2 priorities per quarter to prevent overwhelm.
+#### Cheerleader
+- **Role:** lets me be my playful self
+- **Activation:** going out dancing together
 
-**Celebration**: Acknowledge progress, not just achievement. The journey matters more than the destination.
+#### Coach
+- **Role:** helps define and sharpen my impact
+- **Activation:** regular coaching sessions
+
+---
+
+## Key Systems Summary
+
+### Daily Rituals
+1. **6:00am** - Journaling + stretching (First Hour)
+2. **6:00am** - Meditation + stretch (Micro-Sabbath)
+3. **End of day** - Daily wrap-up
+
+### Weekly Rituals
+1. **Friday 4:00pm** - Weekly shutdown + review
+2. **Sunday 2:00pm** - Weekly reset + priority setting
+
+### Monthly Rituals
+1. **Look-back / look-forward** session
+2. **Challenger feedback** session
+
+### Quarterly Goals
+- Review and adjust quarterly
+- Align weekly priorities with quarterly focus
+- Ensure alignment with Core Aim
+
+---
+
+## Metrics to Track
+
+### Core Aim Progress
+- [ ] Paid consultancy clients (goal: 5)
+- [ ] Corella upgrade completion + rollout metrics
+- [ ] LinkedIn followers (goal: 4,000)
+- [ ] Conference speaking invitation
+
+### System Adherence
+- [ ] First Hour completion rate
+- [ ] Micro-Sabbath completion rate
+- [ ] Weekly shutdown completion rate
+- [ ] Weekly reset completion rate
+- [ ] Phone usage / distraction resistance (goal: 85%)
+
+### Blockers Effectiveness
+- [ ] Morning journal streak
+- [ ] Daily wrap-up streak
+- [ ] Monthly review completion
+- [ ] Speaking up / hard conversations count
 
 ---
 
 *Last Updated: January 2026*
-*Next Review: April 2026*
+*Next Review: February 2026*
