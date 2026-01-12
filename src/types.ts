@@ -19,6 +19,7 @@ export interface Commitment {
   cutoffTime: string;
   templateId: string;
   lastSent?: string;
+  tags?: string[]; // Goal categories: Health, Career, Relationships, Personal Growth, etc.
 }
 
 export interface Log {

@@ -147,9 +147,10 @@ export class Scheduler {
       // Update log with reply
       await notionClient.updateLogWithReply(existingLog.id, message.body);
 
-      // Summarize reply (may return null on failure per DESIGN_DECISIONS.md #10)
+      // Summarize reply with commitment context and goals (may return null on failure per DESIGN_DECISIONS.md #10)
       const summary = await summarizer.summarize(
         message.body,
+        commitment,
         template?.summaryPrompt
       );
 
@@ -286,6 +287,12 @@ export class Scheduler {
         template.subjectLine
       );
 
+      // Substitute template variables in email body with commitment context and goals
+      const personalizedBody = gmailClient.substituteTemplateVariables(
+        template.emailBody,
+        commitment
+      );
+
       // Create log entry BEFORE sending (DESIGN_DECISIONS.md #1)
       const log = await notionClient.createLog({
         commitmentId: commitment.id,
@@ -294,11 +301,11 @@ export class Scheduler {
         status: 'sent',
       });
 
-      // Send email
+      // Send email with personalized content
       const threadId = await gmailClient.sendEmail(
         config.gmail.userEmail,
         subject,
-        template.emailBody
+        personalizedBody
       );
 
       // Update log with thread ID

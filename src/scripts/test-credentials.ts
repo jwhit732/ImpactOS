@@ -5,7 +5,7 @@
 import { gmailClient } from '../gmail.js';
 import { notionClient } from '../notion.js';
 import { summarizer } from '../summarizer.js';
-import { logger } from '../utils/logger.js';
+// import { logger } from '../utils/logger.js'; // Unused in test script
 
 async function testCredentials() {
   console.log('='.repeat(60));

@@ -75,6 +75,7 @@ export class NotionClient {
               cutoffTime: this.extractText(props['Cutoff Time']),
               templateId: this.extractRelation(props.Template)?.[0] || '',
               lastSent: this.extractDate(props['Last Sent']),
+              tags: this.extractMultiSelect(props.Tags),
             });
           }
         }
@@ -327,6 +328,11 @@ export class NotionClient {
   private extractRelation(property: any): string[] | undefined {
     if (!property?.relation) return undefined;
     return property.relation.map((rel: any) => rel.id);
+  }
+
+  private extractMultiSelect(property: any): string[] | undefined {
+    if (!property?.multi_select) return undefined;
+    return property.multi_select.map((option: any) => option.name);
   }
 }
 

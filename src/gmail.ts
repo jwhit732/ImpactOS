@@ -4,8 +4,8 @@
  */
 
 import { google } from 'googleapis';
-import { config } from './config.js';
-import { EmailMessage, ParsedSubject } from './types.js';
+import { config, getGoalsForTags } from './config.js';
+import { EmailMessage, ParsedSubject, Commitment } from './types.js';
 import { logger } from './utils/logger.js';
 
 export class GmailClient {
@@ -151,6 +151,48 @@ export class GmailClient {
     } catch (error) {
       logger.error('Error marking message as read', { messageId, error });
     }
+  }
+
+  /**
+   * Substitute template variables in email body
+   * Supported variables:
+   * - {{commitmentName}} - Name of the commitment
+   * - {{triggerTime}} - When the reminder is sent
+   * - {{date}} - Current date in friendly format
+   * - {{goalsContext}} - Relevant 2026 goals based on tags
+   */
+  substituteTemplateVariables(body: string, commitment: Commitment): string {
+    let result = body;
+
+    // Basic substitutions
+    result = result.replace(/\{\{commitmentName\}\}/g, commitment.name);
+    result = result.replace(/\{\{triggerTime\}\}/g, commitment.triggerTime);
+
+    // Date substitution
+    const now = new Date();
+    const friendlyDate = now.toLocaleDateString('en-US', {
+      weekday: 'long',
+      year: 'numeric',
+      month: 'long',
+      day: 'numeric'
+    });
+    result = result.replace(/\{\{date\}\}/g, friendlyDate);
+
+    // Goals context substitution
+    if (result.includes('{{goalsContext}}')) {
+      const goalsContext = commitment.tags && commitment.tags.length > 0
+        ? getGoalsForTags(commitment.tags)
+        : '';
+
+      if (goalsContext) {
+        result = result.replace(/\{\{goalsContext\}\}/g, goalsContext);
+      } else {
+        // Remove the placeholder if no relevant goals
+        result = result.replace(/\{\{goalsContext\}\}/g, '');
+      }
+    }
+
+    return result;
   }
 
   /**

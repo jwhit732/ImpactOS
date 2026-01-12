@@ -7,10 +7,10 @@ import { google } from 'googleapis';
 import * as readline from 'readline';
 import * as fs from 'fs';
 import * as path from 'path';
-import { fileURLToPath } from 'url';
+// import { fileURLToPath } from 'url';
 
-const __filename = fileURLToPath(import.meta.url);
-const __dirname = path.dirname(__filename);
+// Unused: const __filename = fileURLToPath(import.meta.url);
+// Unused: const __dirname = path.dirname(__filename);
 
 // If you have credentials.json, this will use it
 // Otherwise, you'll need to provide Client ID and Secret manually
